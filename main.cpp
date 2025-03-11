@@ -1,8 +1,7 @@
 #include <fstream>
 #include <iostream>
-#include <vector>
-#include <string>
 using namespace std;
+
 int main() {
     // Open file in binary input mode
     std::fstream file("tips.shp", std::ios_base::binary | std::ios_base::in);
